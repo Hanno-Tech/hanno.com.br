@@ -116,7 +116,7 @@ export default function Home() {
         initial="initial"
         animate="animate"
         variants={staggerChildren}
-        className="w-full bg-white"
+        className="w-full bg-white min-h-screen"
       >
         <motion.div className="container mx-auto px-4 lg:px-8 xl:px-12 flex flex-col md:flex-row items-center justify-between">
           <motion.div 
@@ -200,7 +200,7 @@ export default function Home() {
       {/* Sobre a Hanno */}
       <motion.section 
         id="sobre"
-        className="w-full bg-hanno-purple relative rounded-t-[80px]"
+        className="w-full bg-hanno-purple relative rounded-t-[80px] min-h-screen"
         role="region"
         aria-label="Sobre a Hanno"
       >
@@ -282,7 +282,7 @@ export default function Home() {
       {/* Seção de Soluções */}
       <motion.section 
         id="soluções"
-        className="w-full py-16 mb-16"
+        className="w-full py-16 mb-16 min-h-screen"
         role="region"
         aria-label="Nossas soluções"
       >
@@ -336,7 +336,7 @@ export default function Home() {
       {/* Nosso processo */}
       <motion.section 
         id="processo"
-        className="w-full bg-white rounded-t-[80px] py-16"
+        className="w-full bg-white rounded-t-[80px] py-16 min-h-screen"
         role="region"
         aria-label="Nosso processo"
       >
@@ -415,7 +415,7 @@ export default function Home() {
       {/* Entre em contato */}
       <motion.section 
         id="contato"
-        className="w-full bg-hanno-purple relative"
+        className="w-full bg-hanno-purple relative min-h-screen"
         role="region"
         aria-label="Entre em contato"
       >
