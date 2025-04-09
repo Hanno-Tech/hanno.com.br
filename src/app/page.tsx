@@ -29,6 +29,11 @@ const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string)
   }
 };
 
+const handleWhatsApp = () => {
+  const message = encodeURIComponent("Olá! Vi seu site e gostaria de marcar uma call para conversarmos sobre um projeto. Podemos agendar?");
+  window.open(`https://wa.me/5548984679097?text=${message}`, '_blank');
+};
+
 export default function Home() {
   const [cats, setCats] = useState([1, 2, 3, 4]);
 
@@ -134,6 +139,7 @@ export default function Home() {
               variants={fadeInUp}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={handleWhatsApp}
               className="bg-hanno-purple text-white px-8 py-3 rounded-full text-lg hover:opacity-90 transition-all shadow-lg hover:shadow-hanno-purple/20"
             >
               Solicite uma demonstração
@@ -315,7 +321,10 @@ export default function Home() {
                 <p className="text-hanno-text text-sm flex-grow mb-4">
                   {item.description}
                 </p>
-                <button className="text-white bg-hanno-purple border border-hanno-purple rounded-full px-4 py-2 transition-colors">
+                <button 
+                  onClick={handleWhatsApp}
+                  className="text-white bg-hanno-purple border border-hanno-purple rounded-full px-4 py-2 transition-colors"
+                >
                   Agende uma call
                 </button>
               </motion.div>
@@ -499,7 +508,7 @@ export default function Home() {
                   <span className="font-medium">E-mail:</span> contato@hanno.com.br
                 </p>
                 <p className="text-white">
-                  <span className="font-medium">Telefone:</span> (11) 99999-9999
+                  <span className="font-medium">Telefone:</span> (48) 98467-9097
                 </p>
                 <div className="flex gap-4 items-center">
                   <Link
