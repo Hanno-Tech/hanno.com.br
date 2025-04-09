@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import toast, { Toaster } from 'react-hot-toast';
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -36,22 +37,73 @@ const handleWhatsApp = () => {
 
 export default function Home() {
   const [cats, setCats] = useState([1, 2, 3, 4]);
+  const [formData, setFormData] = useState({
+    name: '',
+    company: '',
+    email: '',
+    whatsapp: '',
+    message: ''
+  });
+
+  const handleFormChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleFormSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    const emptyFields = Object.entries(formData).filter(([_, value]) => !value.trim());
+    
+    if (emptyFields.length > 0) {
+      toast.error('Por favor, preencha todos os campos.');
+      return;
+    }
+
+    const mensagemWhatsApp = `Olá! Gostaria de agendar uma consultoria.\n\nNome: ${formData.name}\nEmpresa: ${formData.company}\nE-mail: ${formData.email}\nWhatsApp: ${formData.whatsapp}\nMensagem: ${formData.message}`;
+    
+    window.open(`https://wa.me/5548984679097?text=${encodeURIComponent(mensagemWhatsApp)}`, '_blank');
+    
+    setFormData({
+      name: '',
+      company: '',
+      email: '',
+      whatsapp: '',
+      message: ''
+    });
+
+    toast.success('Mensagem enviada com sucesso!');
+  };
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCats(prevCats => {
         return prevCats.map((cat, index) => {
-          // Incrementa o número do gato, voltando para 1 se passar de 4
           return cat === 4 ? 1 : cat + 1;
         });
       });
-    }, 1000); // Mudando a cada 1 segundo
+    }, 1000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
     <main className="min-h-screen bg-hanno-text overflow-hidden">
+      <Toaster
+        position="top-right"
+        toastOptions={{
+          style: {
+            background: '#ffffff',
+            color: '#000000',
+            padding: '8px',
+            borderRadius: '8px',
+            boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+          },
+        }}
+      />
       {/* Header */}
       <motion.header 
         initial={{ y: 0, opacity: 1 }}
@@ -299,7 +351,7 @@ export default function Home() {
             Entenda o que oferecemos:
           </motion.h2>
 
-          <motion.div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <motion.div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 h-full">
             {[
               { icon: "💻", title: "Soluções Web", description: "Desenvolvemos plataformas web robustas e escaláveis para sua empresa." },
               { icon: "📱", title: "Aplicativos Mobile", description: "Criamos aplicativos móveis intuitivos para conectar você com seus clientes." },
@@ -308,7 +360,7 @@ export default function Home() {
             ].map((item, index) => (
               <motion.div
                 key={`solucao-${index}`}
-                className="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center text-center hover:shadow-xl transition-shadow h-full"
+                className="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center text-center hover:shadow-xl transition-shadow h-full min-h-[50vh]"
                 whileHover={{ y: -5 }}
                 variants={fadeInUp}
               >
@@ -323,7 +375,7 @@ export default function Home() {
                 </p>
                 <button 
                   onClick={handleWhatsApp}
-                  className="text-white bg-hanno-purple border border-hanno-purple rounded-full px-4 py-2 transition-colors"
+                  className="text-white bg-hanno-purple border border-hanno-purple rounded-full px-2 py-2 transition-colors"
                 >
                   Agende uma call
                 </button>
@@ -353,7 +405,7 @@ export default function Home() {
             Nosso processo
           </motion.h2>
 
-          <motion.div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          <motion.div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16 h-full">
             {[
               {
                 number: "01",
@@ -378,7 +430,7 @@ export default function Home() {
             ].map((item, index) => (
               <motion.div
                 key={`processo-${index}`}
-                className="relative"
+                className="relative h-full min-h-[50vh]"
                 whileHover={{ y: -5 }}
                 variants={fadeInUp}
               >
@@ -445,36 +497,62 @@ export default function Home() {
               Agende uma Consultoria gratuita com a Hanno
             </motion.h2>
             <motion.div className="space-y-4" variants={fadeInUp}>
-              <div className="flex gap-4">
-                <input
-                  type="text"
-                  placeholder="Seu nome"
-                  className="w-full p-3 rounded-lg bg-white text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-hanno-green"
+              <form onSubmit={handleFormSubmit} className="space-y-4">
+                <div className="flex gap-4">
+                  <input
+                    type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleFormChange}
+                    placeholder="Seu nome"
+                    className="w-full p-3 rounded-lg bg-white text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-hanno-text"
+                  />
+                  <input
+                    type="text"
+                    name="company"
+                    value={formData.company}
+                    onChange={handleFormChange}
+                    placeholder="Nome da empresa"
+                    className="w-full p-3 rounded-lg bg-white text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-hanno-text"
+                  />
+                </div>
+                
+                <div className="flex gap-4">
+                  <input
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleFormChange}
+                    placeholder="Seu email"
+                    className="w-full p-3 rounded-lg bg-white text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-hanno-text"
+                  />
+                  <input
+                    type="tel"
+                    name="whatsapp"
+                    value={formData.whatsapp}
+                    onChange={handleFormChange}
+                    placeholder="Seu WhatsApp"
+                    className="w-full p-3 rounded-lg bg-white text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-hanno-text"
+                  />
+                </div>
+                
+                <textarea
+                  name="message"
+                  value={formData.message}
+                  onChange={handleFormChange}
+                  placeholder="Descreva sua necessidade"
+                  className="w-full p-3 rounded-lg bg-white text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-hanno-text h-32 resize-none"
                 />
-                <input
-                  type="text"
-                  placeholder="Nome da empresa"
-                  className="w-full p-3 rounded-lg bg-white text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-hanno-green"
-                />
-              </div>
-              
-              <div className="flex gap-4">
-                <input
-                  type="email"
-                  placeholder="Seu email"
-                  className="w-full p-3 rounded-lg bg-white text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-hanno-green"
-                />
-                <input
-                  type="tel"
-                  placeholder="Seu WhatsApp"
-                  className="w-full p-3 rounded-lg bg-white text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-hanno-green"
-                />
-              </div>
-              
-              <textarea
-                placeholder="Descreva sua necessidade"
-                className="w-full p-3 rounded-lg bg-white text-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-hanno-green h-32 resize-none"
-              />
+
+                <motion.button
+                  type="submit"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="w-full bg-hanno-text text-white px-8 py-3 rounded-full text-lg hover:opacity-90 transition-all"
+                >
+                  Enviar
+                </motion.button>
+              </form>
             </motion.div>
           </div>
         </motion.div>
