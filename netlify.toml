@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NEXT_PUBLIC_URL = "https://hanno.com.br"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs" 
