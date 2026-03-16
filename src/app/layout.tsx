@@ -1,27 +1,25 @@
 import type { Metadata } from "next";
-import { Noto_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const notoSans = Noto_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Hanno - Tecnologia sob medida para o seu crescimento",
-  description: "Desenvolvemos o sistema perfeito para as necessidades de startups, micro e pequenas empresas!",
-  keywords: "tecnologia, desenvolvimento de sistemas, startups, micro empresas, pequenas empresas",
+  title: "Nucleo IA - Home Page",
+  description: "Acelerando a transformação digital através da Inteligência Artificial aplicada e análise estratégica de dados.",
 };
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="pt-BR">
-      <body className={notoSans.className}>{children}</body>
+      <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      </head>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
