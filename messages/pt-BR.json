@@ -1,0 +1,443 @@
+{
+  "common": {
+    "contactUs": "Fale Conosco",
+    "scheduleCall": "Clique aqui\ne agende\numa conversa",
+    "talkWithHanno": "Fale com a Hanno"
+  },
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "howItWorks": "Como Funciona",
+    "contact": "Contato"
+  },
+  "home": {
+    "meta": {
+      "title": "Hanno Tecnologia — Adote tecnologia que transforma",
+      "description": "A Hanno ajuda empresas a construir produtos digitais com comunicação clara, processos estruturados e suporte próximo desde o primeiro passo."
+    },
+    "hero": {
+      "title": "Adote tecnologia\nque transforma",
+      "subtitle": "A Hanno cria produtos digitais com comunicação clara, orientação estruturada e tecnologia feita para parecer simples e organizada.",
+      "cta": "Preciso de um parceiro de tecnologia confiável"
+    },
+    "features": {
+      "transparentWorkflow": "Fluxo Transparente",
+      "dedicatedSupport": "Suporte Dedicado",
+      "scalability": "Feito para Escalar",
+      "clearCommunication": "Comunicação Clara"
+    },
+    "about": {
+      "title": "Sobre nós",
+      "paragraph": "A Hanno ajuda empresas a implementar tecnologia com mais clareza, organização e suporte. Criamos soluções digitais com comunicação transparente e orientação próxima ao longo de todo o processo, tornando os projetos mais fáceis de entender, gerenciar e fazer crescer desde o primeiro dia.",
+      "tags": {
+        "structured": "+ Estruturado",
+        "human": "+ Humano",
+        "scalable": "+ Escalável"
+      },
+      "descriptions": {
+        "workflows": "Fluxos claros e implementação orientada.",
+        "support": "Suporte próximo e comunicação transparente.",
+        "solutions": "Soluções digitais feitas para crescer com o seu negócio."
+      }
+    },
+    "painPoints": {
+      "title": "Tecnologia não deveria ser tão complicada:",
+      "subtitle": "A maioria das empresas não tem dificuldade com a tecnologia em si — e sim com a experiência ao redor dela.",
+      "items": {
+        "confusingWorkflows": "Fluxos confusos",
+        "genericSolutions": "Soluções\ngenéricas",
+        "poorSupport": "Suporte\nruim",
+        "technologyOverload": "Excesso de\ntecnologia",
+        "technicalConfusion": "Confusão técnica"
+      },
+      "bottom1": "A maioria das empresas não tem dificuldade com tecnologia.\nElas têm dificuldade com más experiências de tecnologia.",
+      "bottom2": "A Hanno faz a tecnologia parecer clara, organizada e genuinamente humana desde o primeiro passo."
+    },
+    "services": {
+      "title": "O que construímos: soluções digitais feitas para crescer com o seu negócio.",
+      "subtitle": "Soluções criadas para tornar a tecnologia mais clara, simples e fácil de fazer crescer.",
+      "items": {
+        "saas": {
+          "title": "Plataformas SaaS",
+          "description": "Construímos produtos SaaS pensados para crescimento, posicionamento e escalabilidade.\n\nDa arquitetura do sistema e desenvolvimento do produto a landing pages, branding e estratégia de lançamento. A Hanno ajuda empresas a construir produtos digitais do zero."
+        },
+        "customSystems": {
+          "title": "Sistemas\nSob Medida",
+          "description": "Soluções de software sob medida, construídas em torno do seu fluxo de trabalho."
+        },
+        "landingPages": {
+          "title": "Landing Pages\n& Sites",
+          "description": "Experiências digitais modernas, feitas para comunicar com clareza, gerar confiança e converter visitantes em oportunidades."
+        },
+        "maintenance": {
+          "title": "Manutenção\n& Suporte",
+          "description": "Suporte técnico contínuo para manter o seu produto funcionando sem problemas."
+        },
+        "security": {
+          "title": "Auditorias\nde Segurança",
+          "description": "Análise técnica e proteção para a sua infraestrutura digital."
+        }
+      }
+    },
+    "comparison": {
+      "title": "A Hanno foca em clareza, estrutura e parceria de verdade.",
+      "subtitle": "Além do desenvolvimento, criamos experiências digitais organizadas com comunicação clara, processos estruturados e suporte próximo desde o primeiro dia.",
+      "expHeader": "Experiência",
+      "shHeader": "Software Houses",
+      "rows": {
+        "customDevelopment": "Desenvolvimento sob medida",
+        "responsivePlatforms": "Plataformas responsivas",
+        "scalableArchitecture": "Arquitetura escalável",
+        "structuredOnboarding": "Onboarding estruturado",
+        "clearCommunication": "Comunicação clara e não técnica",
+        "closeSupport": "Suporte próximo durante todo o processo",
+        "brandingSupport": "Apoio de branding para produtos SaaS",
+        "guidanceBeyond": "Orientação além do desenvolvimento",
+        "humanCentered": "Experiência de implementação centrada no humano"
+      }
+    },
+    "howItWorks": {
+      "title": "Um processo mais claro desde o primeiro passo.",
+      "subtitle": "A Hanno combina fluxos estruturados, comunicação transparente e orientação próxima para tornar projetos digitais mais fáceis de entender, gerenciar e fazer crescer.",
+      "steps": [
+        {
+          "title": "Entender o negócio",
+          "description": "Analisamos objetivos, fluxos de trabalho, necessidades operacionais e o que o projeto realmente precisa resolver."
+        },
+        {
+          "title": "Estruturar a experiência",
+          "description": "Organizamos fluxos, prioridades, comunicação e implementação antes do desenvolvimento começar."
+        },
+        {
+          "title": "Construir com clareza",
+          "description": "O projeto é desenvolvido em etapas estruturadas, com processos de validação e bases escaláveis."
+        },
+        {
+          "title": "Suporte após a entrega",
+          "description": "Continuamos apoiando o projeto com orientação, ajustes e acompanhamento técnico de longo prazo."
+        }
+      ],
+      "bottomQuote": "A tecnologia fica melhor quando o processo por trás dela é organizado, transparente e fácil de acompanhar."
+    },
+    "closing": {
+      "heading": "Vamos construir algo mais claro.",
+      "body1": "A Hanno ajuda empresas a construir produtos digitais com comunicação clara, processos estruturados e suporte próximo desde o primeiro passo.",
+      "body2": "Seja uma plataforma SaaS, um sistema sob medida ou uma presença digital mais forte, estamos aqui para tornar o processo mais organizado, acessível e humano."
+    }
+  },
+  "servicePage": {
+    "processHeading": "O Processo"
+  },
+  "services": {
+    "saas": {
+      "meta": {
+        "title": "Plataformas SaaS — Hanno Tecnologia",
+        "description": "A Hanno ajuda empresas e fundadores a transformar ideias em plataformas SaaS por meio de estratégia de produto, desenvolvimento de sistemas, landing pages, branding e experiências digitais prontas para o lançamento."
+      },
+      "heroTitle": "O que construímos:\nPlataformas SaaS",
+      "heading": "Construa um produto SaaS com clareza, estrutura e escalabilidade desde o primeiro dia",
+      "subtitle": "A Hanno ajuda empresas e fundadores a transformar ideias em plataformas SaaS por meio de estratégia de produto, desenvolvimento de sistemas, landing pages, branding e experiências digitais prontas para o lançamento.",
+      "intro": [
+        "Uma plataforma SaaS é um produto digital que as pessoas acessam online para resolver um problema específico, gerenciar um processo ou melhorar a forma como trabalham. Mas construir um SaaS não é só programar o sistema.",
+        "Também é preciso uma estrutura de produto clara, uma experiência de uso intuitiva, posicionamento forte, branding confiável e uma página de lançamento que explique o valor do produto de forma simples.",
+        "A Hanno ajuda você a construir toda a jornada do SaaS — da plataforma em si à forma como ela aparece, comunica e entra no mercado."
+      ],
+      "offerings": [
+        {
+          "title": "Estratégia de produto",
+          "description": "Ajudamos a organizar a ideia, definir as funcionalidades essenciais e estruturar o que precisa ser construído primeiro."
+        },
+        {
+          "title": "Plataforma SaaS",
+          "description": "Projetamos e desenvolvemos o sistema, dashboards, fluxos, áreas de usuário, painéis administrativos e as principais funcionalidades do produto."
+        },
+        {
+          "title": "Landing page",
+          "description": "Criamos uma página clara e focada em conversão para explicar o produto, atrair usuários e apoiar campanhas de lançamento."
+        },
+        {
+          "title": "Branding para SaaS",
+          "description": "Desenvolvemos identidade visual, posicionamento e comunicação para que o produto pareça confiável, memorável e pronto para crescer."
+        }
+      ],
+      "process": [
+        {
+          "title": "Entender o produto",
+          "description": "Mapeamos a ideia, os objetivos de negócio, o público, as funcionalidades e o problema que o SaaS precisa resolver."
+        },
+        {
+          "title": "Estruturar a experiência",
+          "description": "Organizamos o fluxo do produto, a jornada do usuário, as telas principais, a direção de marca e a comunicação."
+        },
+        {
+          "title": "Construir a plataforma",
+          "description": "Desenvolvemos o SaaS em etapas claras, com comunicação estruturada e bases escaláveis."
+        },
+        {
+          "title": "Preparar para o lançamento",
+          "description": "Ajudamos a alinhar landing page, branding, apresentação do produto e a experiência digital necessária."
+        }
+      ],
+      "cta": {
+        "heading": "Seu SaaS precisa de mais do que desenvolvimento. Precisa de estrutura.",
+        "subtitle": "Vamos construir um produto que seja claro de usar, fácil de apresentar e pronto para crescer.",
+        "button": "Construir meu SaaS"
+      }
+    },
+    "customSystems": {
+      "meta": {
+        "title": "Sistemas Sob Medida — Hanno Tecnologia",
+        "description": "A Hanno desenvolve sistemas sob medida para empresas que precisam de mais organização, automação e controle em suas operações."
+      },
+      "heroTitle": "Sistemas Sob Medida",
+      "heading": "Construa sistemas pensados para a forma como o seu negócio realmente funciona.",
+      "subtitle": "A Hanno desenvolve sistemas sob medida para empresas que precisam de mais organização, automação e controle em suas operações.",
+      "intro": [
+        "Um sistema sob medida é construído especificamente para os fluxos e processos do seu negócio.",
+        "Em vez de forçar a sua operação a se adaptar a ferramentas genéricas, a plataforma é pensada em torno da forma como a sua empresa já trabalha, gerando mais organização, controle e eficiência no dia a dia."
+      ],
+      "offerings": [
+        {
+          "title": "Organização de processos",
+          "description": "Estruturamos fluxos de trabalho, operações e rotinas internas em sistemas construídos em torno da lógica real do negócio."
+        },
+        {
+          "title": "Dashboards & gestão",
+          "description": "Criamos painéis administrativos, dashboards, áreas de usuário e ferramentas de gestão com experiências claras e intuitivas."
+        },
+        {
+          "title": "Automação & integrações",
+          "description": "Automatizamos tarefas repetitivas e conectamos sistemas, plataformas e processos operacionais."
+        },
+        {
+          "title": "Estrutura escalável",
+          "description": "Os sistemas são desenvolvidos com arquitetura organizada e bases escaláveis para o crescimento de longo prazo."
+        }
+      ],
+      "process": [
+        {
+          "title": "Entender a operação",
+          "description": "Analisamos fluxos de trabalho, gargalos, processos e necessidades operacionais."
+        },
+        {
+          "title": "Estruturar o sistema",
+          "description": "Organizamos funcionalidades, fluxos, dashboards e a lógica da plataforma em torno do negócio."
+        },
+        {
+          "title": "Construir a plataforma",
+          "description": "O sistema é desenvolvido com arquitetura escalável e implementação estruturada."
+        },
+        {
+          "title": "Apoiar a implementação",
+          "description": "Ajudamos a integrar o sistema ao dia a dia da operação com suporte e orientação próximos."
+        }
+      ],
+      "cta": {
+        "heading": "Seu negócio merece um software construído em torno da forma como ele realmente funciona.",
+        "subtitle": "Vamos criar um sistema que seja organizado, escalável e fácil de gerenciar.",
+        "button": "Construir meu sistema"
+      }
+    },
+    "landingPages": {
+      "meta": {
+        "title": "Landing Pages & Sites — Hanno Tecnologia",
+        "description": "A Hanno cria landing pages e sites para empresas que precisam de uma presença digital mais forte, comunicação mais clara e experiências feitas para gerar confiança desde a primeira interação."
+      },
+      "heroTitle": "Landing Pages & Sites",
+      "heading": "Experiências digitais feitas para comunicar com clareza e converter",
+      "subtitle": "A Hanno cria landing pages e sites para empresas que precisam de uma presença digital mais forte, comunicação mais clara e experiências feitas para gerar confiança desde a primeira interação.",
+      "intro": [
+        "Uma landing page ou site costuma ser a primeira interação que as pessoas têm com o seu negócio.",
+        "Além de ter um bom visual, ela precisa explicar o que você faz, gerar confiança, organizar as informações com clareza e guiar os visitantes à ação sem confusão ou complexidade desnecessária.",
+        "Por isso focamos em comunicação, estrutura, responsividade e experiência do usuário desde o início do processo."
+      ],
+      "offerings": [
+        {
+          "title": "Landing pages",
+          "description": "Páginas focadas em conversão, criadas para lançamentos, campanhas, produtos e geração de leads."
+        },
+        {
+          "title": "Sites institucionais",
+          "description": "Sites modernos criados para fortalecer a presença digital e comunicar os serviços com clareza."
+        },
+        {
+          "title": "Estrutura & comunicação",
+          "description": "Organizamos conteúdo, hierarquia e fluxo de navegação para tornar a experiência mais fácil de percorrer."
+        },
+        {
+          "title": "Experiência responsiva",
+          "description": "Cada página é feita para funcionar perfeitamente em desktop, tablet e celular."
+        }
+      ],
+      "process": [
+        {
+          "title": "Entender o negócio",
+          "description": "Identificamos objetivos, público, necessidades de comunicação e o que a página precisa alcançar."
+        },
+        {
+          "title": "Estruturar a experiência",
+          "description": "Organizamos conteúdo, layout, hierarquia e navegação do usuário antes do desenvolvimento começar."
+        },
+        {
+          "title": "Design & desenvolvimento",
+          "description": "O site é desenvolvido com estrutura responsiva, comunicação clara e desempenho otimizado."
+        },
+        {
+          "title": "Lançamento & suporte",
+          "description": "Publicamos o projeto, validamos a experiência e damos suporte para os ajustes finais."
+        }
+      ],
+      "cta": {
+        "heading": "Sua presença digital deve parecer clara, confiável e fácil de navegar.",
+        "subtitle": "Vamos construir uma experiência de site pensada em torno de clareza, estrutura e comunicação de verdade.",
+        "button": "Construir meu site"
+      }
+    },
+    "maintenance": {
+      "meta": {
+        "title": "Manutenção & Suporte — Hanno Tecnologia",
+        "description": "A Hanno oferece manutenção estruturada e suporte técnico para empresas que precisam de sistemas confiáveis, melhorias contínuas e operações digitais mais seguras no longo prazo."
+      },
+      "heroTitle": "Manutenção & Suporte",
+      "heading": "Mantenha seus sistemas estáveis, organizados e com suporte conforme o seu negócio cresce.",
+      "subtitle": "A Hanno oferece manutenção estruturada e suporte técnico para empresas que precisam de sistemas confiáveis, melhorias contínuas e operações digitais mais seguras no longo prazo.",
+      "intro": [
+        "Manter um sistema envolve muito mais do que corrigir bugs ocasionais.",
+        "À medida que as empresas crescem, as plataformas precisam de atualizações, otimizações, melhorias e monitoramento técnico para continuar funcionando de forma fluida e eficiente.",
+        "Por isso focamos em fluxos organizados, comunicação clara e processos de suporte estruturados para manter as operações estáveis ao longo do tempo."
+      ],
+      "offerings": [
+        {
+          "title": "Manutenção técnica",
+          "description": "Corrigimos bugs, melhoramos funcionalidades e mantemos a estabilidade do sistema em toda a operação digital."
+        },
+        {
+          "title": "Melhorias de fluxo",
+          "description": "Otimizamos processos, interfaces e fluxos operacionais para melhorar a usabilidade e a eficiência."
+        },
+        {
+          "title": "Suporte contínuo",
+          "description": "Suporte estruturado para ajudar as empresas a gerenciar sistemas com mais clareza e confiabilidade."
+        },
+        {
+          "title": "Infraestrutura estável",
+          "description": "Atualizações e melhorias são implementadas com cuidado para evitar interrupções e riscos operacionais."
+        }
+      ],
+      "process": [
+        {
+          "title": "Analisar o sistema",
+          "description": "Revisamos a plataforma, os fluxos, a estrutura e o ambiente técnico antes de fazer mudanças."
+        },
+        {
+          "title": "Organizar prioridades",
+          "description": "Identificamos bugs, melhorias e necessidades operacionais com base em impacto e urgência."
+        },
+        {
+          "title": "Implementar atualizações",
+          "description": "As mudanças são desenvolvidas, testadas e validadas por meio de fluxos estruturados e implantações seguras."
+        },
+        {
+          "title": "Oferecer suporte contínuo",
+          "description": "Continuamos monitorando, mantendo e dando suporte ao sistema conforme o negócio evolui."
+        }
+      ],
+      "cta": {
+        "heading": "Sistemas confiáveis exigem suporte contínuo e manutenção organizada.",
+        "subtitle": "Vamos manter a sua operação digital estável, escalável e mais fácil de gerenciar ao longo do tempo.",
+        "button": "Dar suporte ao meu sistema"
+      }
+    },
+    "security": {
+      "meta": {
+        "title": "Auditorias de Segurança — Hanno Tecnologia",
+        "description": "A Hanno realiza auditorias técnicas de segurança para empresas que precisam de sistemas mais seguros, operações digitais mais confiáveis e mais visibilidade sobre potenciais vulnerabilidades."
+      },
+      "heroTitle": "Auditorias de Segurança",
+      "heading": "Identifique vulnerabilidades antes que elas virem riscos operacionais.",
+      "subtitle": "A Hanno realiza auditorias técnicas de segurança para empresas que precisam de sistemas mais seguros, operações digitais mais confiáveis e mais visibilidade sobre potenciais vulnerabilidades.",
+      "intro": [
+        "Uma auditoria de segurança é feita para identificar fragilidades, vulnerabilidades e riscos técnicos que possam comprometer sistemas, operações ou informações sensíveis.",
+        "Além de encontrar problemas, o objetivo é criar uma compreensão mais clara da estrutura de segurança da plataforma e ajudar as empresas a melhorar a proteção antes que os problemas se tornem críticos.",
+        "Por isso cada auditoria é conduzida com análise organizada, validação técnica e comunicação clara durante todo o processo."
+      ],
+      "offerings": [
+        {
+          "title": "Análise de vulnerabilidades",
+          "description": "Identificamos riscos de segurança, áreas expostas e potenciais fragilidades em sistemas e aplicações."
+        },
+        {
+          "title": "Revisão de infraestrutura",
+          "description": "Analisamos ambientes, configurações, permissões e práticas de segurança operacional."
+        },
+        {
+          "title": "Relatórios técnicos",
+          "description": "Cada auditoria inclui documentação estruturada com achados, riscos e recomendações de melhoria."
+        },
+        {
+          "title": "Melhorias de segurança",
+          "description": "Ajudamos as empresas a priorizar correções e fortalecer as operações digitais com práticas mais seguras e orientação de implementação."
+        }
+      ],
+      "process": [
+        {
+          "title": "Entender o ambiente",
+          "description": "Analisamos a estrutura do sistema, a infraestrutura, o escopo e o contexto operacional."
+        },
+        {
+          "title": "Revisar vulnerabilidades",
+          "description": "Identificamos áreas expostas, fragilidades técnicas e possíveis riscos de segurança."
+        },
+        {
+          "title": "Validar achados",
+          "description": "As potenciais vulnerabilidades são revisadas e validadas tecnicamente para reduzir falsos positivos."
+        },
+        {
+          "title": "Entregar recomendações",
+          "description": "Organizamos os achados em relatórios claros com orientação para uma implementação mais segura e melhorias futuras."
+        }
+      ],
+      "cta": {
+        "heading": "Mais segurança começa por entender onde estão os riscos reais.",
+        "subtitle": "Vamos criar um ambiente digital mais seguro e confiável para o seu negócio.",
+        "button": "Auditar meu sistema"
+      }
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Fale Conosco — Hanno Tecnologia",
+      "description": "Conte pra gente o que você está construindo. A Hanno está aqui para tornar o processo mais claro e fácil de navegar."
+    },
+    "hero": "Vamos conversar",
+    "heading": "Conte pra gente\no que você está construindo",
+    "subtitle": "Seja uma plataforma SaaS, um sistema sob medida, um site ou simplesmente uma orientação para o seu próximo passo digital, a Hanno está aqui para tornar o processo mais claro e fácil de navegar.",
+    "form": {
+      "namePlaceholder": "Seu nome",
+      "emailPlaceholder": "Seu e-mail",
+      "companyPlaceholder": "Empresa / Nome do negócio",
+      "lookingForLabel": "O que você procura?",
+      "options": {
+        "saas": "Plataforma SaaS",
+        "custom": "Sistema sob medida",
+        "landing": "Landing Page / Site",
+        "maintenance": "Manutenção & Suporte",
+        "security": "Auditoria de Segurança",
+        "other": "Outro"
+      },
+      "messagePlaceholder": "Conte um pouco sobre o seu projeto",
+      "submit": "Fale com a Hanno",
+      "emailSubject": "Novo contato de projeto"
+    }
+  },
+  "footer": {
+    "tagline": "Adote tecnologia\nque transforma",
+    "contactUs": "Fale Conosco",
+    "copyright": "© 2026 Hanno Tecnologia",
+    "roles": {
+      "founder": "Fundador e Desenvolvedor",
+      "brand": "Head de Marca e Designer",
+      "ceo": "CEO"
+    }
+  }
+}

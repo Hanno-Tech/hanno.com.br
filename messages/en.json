@@ -1,0 +1,443 @@
+{
+  "common": {
+    "contactUs": "Contact Us",
+    "scheduleCall": "Click here\nand schedule\na Call",
+    "talkWithHanno": "Talk With Hanno"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "howItWorks": "How It Works",
+    "contact": "Contact"
+  },
+  "home": {
+    "meta": {
+      "title": "Hanno Technology — Adopt technology that transforms",
+      "description": "Hanno helps businesses build digital products with clear communication, structured processes, and close support from the very first step."
+    },
+    "hero": {
+      "title": "Adopt technology\nthat transforms",
+      "subtitle": "Hanno designs digital products with clear communication, structured guidance, and technology built to feel simple and organized.",
+      "cta": "I need a reliable tech partner"
+    },
+    "features": {
+      "transparentWorkflow": "Transparent Workflow",
+      "dedicatedSupport": "Dedicated Support",
+      "scalability": "Built for Scalability",
+      "clearCommunication": "Clear Communication"
+    },
+    "about": {
+      "title": "About us",
+      "paragraph": "Hanno helps businesses implement technology with more clarity, organization, and support. We create digital solutions with transparent communication and close guidance throughout the entire process, making projects easier to understand, manage, and grow with from day one.",
+      "tags": {
+        "structured": "+ Structured",
+        "human": "+ Human",
+        "scalable": "+ Scalable"
+      },
+      "descriptions": {
+        "workflows": "Clear workflows and guided implementation.",
+        "support": "Close support and transparent communication.",
+        "solutions": "Digital solutions built to grow with your business."
+      }
+    },
+    "painPoints": {
+      "title": "Technology shouldn't feel this complicated:",
+      "subtitle": "Most businesses don't struggle with technology itself — they struggle with the experience around it.",
+      "items": {
+        "confusingWorkflows": "Confusing workflows",
+        "genericSolutions": "Generic\nsolutions",
+        "poorSupport": "Poor\nsupport",
+        "technologyOverload": "Technology\noverload",
+        "technicalConfusion": "Technical confusion"
+      },
+      "bottom1": "Most businesses don't struggle with technology.\nThey struggle with bad tech experiences.",
+      "bottom2": "Hanno makes technology feel clear, organized, and genuinely human from the very first step."
+    },
+    "services": {
+      "title": "What we build: Digital solutions designed to grow with your business.",
+      "subtitle": "Solutions built to make technology feel clearer, simpler, and easier to grow with.",
+      "items": {
+        "saas": {
+          "title": "SaaS Platforms",
+          "description": "We build SaaS products designed for growth, positioning, and scalability.\n\nFrom system architecture and product development to landing pages, branding, and launch strategy. Hanno helps businesses build digital products from the ground up."
+        },
+        "customSystems": {
+          "title": "Custom\nSystems",
+          "description": "Tailored software solutions built around your workflow."
+        },
+        "landingPages": {
+          "title": "Landing Pages\n& Websites",
+          "description": "Modern digital experiences designed to communicate clearly, build trust, and convert visitors into opportunities."
+        },
+        "maintenance": {
+          "title": "Maintenance\n& Support",
+          "description": "Continuous technical support to keep your product running smoothly."
+        },
+        "security": {
+          "title": "Security\nAudits",
+          "description": "Technical analysis and protection for your digital infrastructure."
+        }
+      }
+    },
+    "comparison": {
+      "title": "Hanno focuses on clarity, structure, and real partnership.",
+      "subtitle": "Beyond development, we create organized digital experiences with clear communication, structured processes, and close support from day one.",
+      "expHeader": "Experience",
+      "shHeader": "Software Houses",
+      "rows": {
+        "customDevelopment": "Custom development",
+        "responsivePlatforms": "Responsive platforms",
+        "scalableArchitecture": "Scalable architecture",
+        "structuredOnboarding": "Structured onboarding",
+        "clearCommunication": "Clear, non-technical communication",
+        "closeSupport": "Close support throughout the process",
+        "brandingSupport": "Branding support for SaaS products",
+        "guidanceBeyond": "Guidance beyond development",
+        "humanCentered": "Human-centered implementation experience"
+      }
+    },
+    "howItWorks": {
+      "title": "A clearer process from the very first step.",
+      "subtitle": "Hanno combines structured workflows, transparent communication, and close guidance to make digital projects easier to understand, manage, and grow with.",
+      "steps": [
+        {
+          "title": "Understand the business",
+          "description": "We analyze goals, workflows, operational needs, and what the project actually needs to solve."
+        },
+        {
+          "title": "Structure the experience",
+          "description": "We organize flows, priorities, communication, and implementation before development begins."
+        },
+        {
+          "title": "Build with clarity",
+          "description": "The project is developed through structured stages, validation processes, and scalable foundations."
+        },
+        {
+          "title": "Support after delivery",
+          "description": "We continue supporting the project with guidance, adjustments, and long-term technical follow-up."
+        }
+      ],
+      "bottomQuote": "Technology feels better when the process behind it is organized, transparent, and easy to follow."
+    },
+    "closing": {
+      "heading": "Let's build something clearer.",
+      "body1": "Hanno helps businesses build digital products with clear communication, structured processes, and close support from the very first step.",
+      "body2": "Whether you need a SaaS platform, a custom system, or a stronger digital presence, we're here to help make the process feel more organized, accessible, and human."
+    }
+  },
+  "servicePage": {
+    "processHeading": "The Process"
+  },
+  "services": {
+    "saas": {
+      "meta": {
+        "title": "SaaS Platforms — Hanno Technology",
+        "description": "Hanno helps businesses and founders turn ideas into SaaS platforms through product strategy, system development, landing pages, branding, and launch-ready digital experiences."
+      },
+      "heroTitle": "What We Build:\nSaaS Platforms",
+      "heading": "Build a SaaS product with clarity, structure, and scalability from day one",
+      "subtitle": "Hanno helps businesses and founders turn ideas into SaaS platforms through product strategy, system development, landing pages, branding, and launch-ready digital experiences.",
+      "intro": [
+        "A SaaS platform is a digital product that people access online to solve a specific problem, manage a process, or improve the way they work. But building a SaaS is not just about coding the system.",
+        "It also needs a clear product structure, intuitive user experience, strong positioning, trustworthy branding, and a launch page that explains the value of the product in a simple way.",
+        "Hanno helps you build the full SaaS journey — from the platform itself to the way it looks, communicates, and enters the market."
+      ],
+      "offerings": [
+        {
+          "title": "Product strategy",
+          "description": "We help organize the idea, define the core features, and structure what needs to be built first."
+        },
+        {
+          "title": "SaaS platform",
+          "description": "We design and develop the system, dashboards, flows, user areas, admin panels, and core product features."
+        },
+        {
+          "title": "Landing page",
+          "description": "We create a clear and conversion-focused page to explain the product, attract users, and support launch campaigns."
+        },
+        {
+          "title": "Branding for SaaS",
+          "description": "We develop visual identity, positioning, and communication so the product feels trustworthy, memorable, and ready for growth."
+        }
+      ],
+      "process": [
+        {
+          "title": "Understand the product",
+          "description": "We map the idea, business goals, audience, features, and the problem the SaaS needs to solve."
+        },
+        {
+          "title": "Structure the experience",
+          "description": "We organize the product flow, user journey, main screens, brand direction, and launch the copy."
+        },
+        {
+          "title": "Build the platform",
+          "description": "We develop the SaaS with clear stages, structured communication, and scalable foundations."
+        },
+        {
+          "title": "Prepare for launch",
+          "description": "We help align landing page, branding, product presentation, and the digital experience needed."
+        }
+      ],
+      "cta": {
+        "heading": "Your SaaS needs more than development. It needs structure.",
+        "subtitle": "Let's build a product that feels clear to use, easy to present, and ready to grow.",
+        "button": "Build my saas"
+      }
+    },
+    "customSystems": {
+      "meta": {
+        "title": "Custom Systems — Hanno Technology",
+        "description": "Hanno develops custom systems for businesses that need more organization, automation, and control across their operations."
+      },
+      "heroTitle": "Custom Systems",
+      "heading": "Build systems designed around the way your business actually works.",
+      "subtitle": "Hanno develops custom systems for businesses that need more organization, automation, and control across their operations.",
+      "intro": [
+        "A custom system is built specifically for the workflows and processes of your business.",
+        "Instead of forcing your operation to adapt to generic tools, the platform is designed around the way your company already works, creating more organization, control, and efficiency across daily operations."
+      ],
+      "offerings": [
+        {
+          "title": "Process organization",
+          "description": "We structure workflows, operations, and internal routines into systems built around real business logic."
+        },
+        {
+          "title": "Dashboards & management",
+          "description": "We create admin panels, dashboards, user areas, and management tools with clear and intuitive experiences."
+        },
+        {
+          "title": "Automation & integrations",
+          "description": "We automate repetitive tasks and connect systems, platforms, and operational processes together."
+        },
+        {
+          "title": "Scalable structure",
+          "description": "Systems are developed with organized architecture and scalable foundations for long-term growth."
+        }
+      ],
+      "process": [
+        {
+          "title": "Understand the operation",
+          "description": "We analyze workflows, bottlenecks, processes, and operational needs."
+        },
+        {
+          "title": "Structure the system",
+          "description": "We organize features, flows, dashboards, and platform logic around the business."
+        },
+        {
+          "title": "Build the platform",
+          "description": "The system is developed with scalable architecture and structured implementation."
+        },
+        {
+          "title": "Support implementation",
+          "description": "We help integrate the system into daily operations with close support and guidance."
+        }
+      ],
+      "cta": {
+        "heading": "Your business deserves software built around the way it actually works.",
+        "subtitle": "Let's create a system that feels organized, scalable, and easy to manage.",
+        "button": "Build my system"
+      }
+    },
+    "landingPages": {
+      "meta": {
+        "title": "Landing Pages & Websites — Hanno Technology",
+        "description": "Hanno creates landing pages and websites for businesses that need a stronger digital presence, clearer communication, and experiences designed to build trust from the very first interaction."
+      },
+      "heroTitle": "Landing Pages & Websites",
+      "heading": "Digital experiences designed to communicate clearly and convert",
+      "subtitle": "Hanno creates landing pages and websites for businesses that need a stronger digital presence, clearer communication, and experiences designed to build trust from the very first interaction.",
+      "intro": [
+        "A landing page or website is often the first interaction people have with your business.",
+        "Beyond looking good, it needs to explain what you do, create trust, organize information clearly, and guide visitors toward action without confusion or unnecessary complexity.",
+        "That's why we focus on communication, structure, responsiveness, and user experience from the beginning of the process."
+      ],
+      "offerings": [
+        {
+          "title": "Landing pages",
+          "description": "Conversion-focused pages designed for launches, campaigns, products, and lead generation."
+        },
+        {
+          "title": "Business websites",
+          "description": "Modern websites created to strengthen digital presence and communicate services clearly."
+        },
+        {
+          "title": "Structure & communication",
+          "description": "We organize content, hierarchy, and user flow to make the experience easier to navigate."
+        },
+        {
+          "title": "Responsive experience",
+          "description": "Every page is designed to work smoothly across desktop, tablet, and mobile devices."
+        }
+      ],
+      "process": [
+        {
+          "title": "Understand the business",
+          "description": "We identify goals, audience, communication needs, and what the page needs to achieve."
+        },
+        {
+          "title": "Structure the experience",
+          "description": "We organize content, layout, hierarchy, and user navigation before development begins."
+        },
+        {
+          "title": "Design & development",
+          "description": "The website is developed with responsive structure, clear communication, and optimized performance."
+        },
+        {
+          "title": "Launch & support",
+          "description": "We publish the project, validate the experience, and provide support for final adjustments."
+        }
+      ],
+      "cta": {
+        "heading": "Your digital presence should feel clear, trustworthy, and easy to navigate.",
+        "subtitle": "Let's build a website experience designed around clarity, structure, and real communication.",
+        "button": "Build my website"
+      }
+    },
+    "maintenance": {
+      "meta": {
+        "title": "Maintenance & Support — Hanno Technology",
+        "description": "Hanno provides structured maintenance and technical support for businesses that need reliable systems, continuous improvements, and safer long-term digital operations."
+      },
+      "heroTitle": "Maintenance & Support",
+      "heading": "Keep your systems stable, organized, and supported as your business grows.",
+      "subtitle": "Hanno provides structured maintenance and technical support for businesses that need reliable systems, continuous improvements, and safer long-term digital operations.",
+      "intro": [
+        "Maintaining a system involves much more than fixing occasional bugs.",
+        "As businesses grow, platforms need updates, optimizations, improvements, and technical monitoring to continue working smoothly and efficiently.",
+        "That's why we focus on organized workflows, clear communication, and structured support processes designed to keep operations stable over time."
+      ],
+      "offerings": [
+        {
+          "title": "Technical maintenance",
+          "description": "We fix bugs, improve features, and maintain system stability across digital operations."
+        },
+        {
+          "title": "Workflow improvements",
+          "description": "We optimize processes, interfaces, and operational flows to improve usability and efficiency."
+        },
+        {
+          "title": "Ongoing support",
+          "description": "Structured support designed to help businesses manage systems with more clarity and reliability."
+        },
+        {
+          "title": "Stable infrastructure",
+          "description": "Updates and improvements are implemented carefully to avoid interruptions and operational risks."
+        }
+      ],
+      "process": [
+        {
+          "title": "Analyze the system",
+          "description": "We review the platform, workflows, structure, and technical environment before making changes."
+        },
+        {
+          "title": "Organize priorities",
+          "description": "We identify bugs, improvements, and operational needs based on impact and urgency."
+        },
+        {
+          "title": "Implement updates",
+          "description": "Changes are developed, tested, and validated through structured workflows and safe deployments."
+        },
+        {
+          "title": "Provide continuous support",
+          "description": "We continue monitoring, maintaining, and supporting the system as the business evolves."
+        }
+      ],
+      "cta": {
+        "heading": "Reliable systems require continuous support and organized maintenance.",
+        "subtitle": "Let's keep your digital operation stable, scalable, and easier to manage over time.",
+        "button": "Support My System"
+      }
+    },
+    "security": {
+      "meta": {
+        "title": "Security Audits — Hanno Technology",
+        "description": "Hanno provides technical security audits for businesses that need safer systems, more reliable digital operations, and better visibility into potential vulnerabilities."
+      },
+      "heroTitle": "Security Audits",
+      "heading": "Identify vulnerabilities before they become operational risks.",
+      "subtitle": "Hanno provides technical security audits for businesses that need safer systems, more reliable digital operations, and better visibility into potential vulnerabilities.",
+      "intro": [
+        "A security audit is designed to identify weaknesses, vulnerabilities, and technical risks that could compromise systems, operations, or sensitive information.",
+        "Beyond finding problems, the goal is to create a clearer understanding of the platform's security structure and help businesses improve protection before issues become critical.",
+        "That's why every audit is approached with organized analysis, technical validation, and clear communication throughout the process."
+      ],
+      "offerings": [
+        {
+          "title": "Vulnerability analysis",
+          "description": "We identify security risks, exposed areas, and potential weaknesses across systems and applications."
+        },
+        {
+          "title": "Infrastructure review",
+          "description": "We analyze environments, configurations, permissions, and operational security practices."
+        },
+        {
+          "title": "Technical reporting",
+          "description": "Every audit includes structured documentation with findings, risks, and recommendations for improvement."
+        },
+        {
+          "title": "Security improvements",
+          "description": "We help businesses prioritize fixes and strengthen digital operations with safer practices and implementation guidance."
+        }
+      ],
+      "process": [
+        {
+          "title": "Understand the environment",
+          "description": "We analyze the system structure, infrastructure, scope, and operational context."
+        },
+        {
+          "title": "Review vulnerabilities",
+          "description": "We identify exposed areas, technical weaknesses, and possible security risks."
+        },
+        {
+          "title": "Validate findings",
+          "description": "Potential vulnerabilities are reviewed and technically validated to reduce false positives."
+        },
+        {
+          "title": "Deliver recommendations",
+          "description": "We organize findings into clear reports with guidance for safer implementation and future improvements."
+        }
+      ],
+      "cta": {
+        "heading": "Better security starts with understanding where the real risks are.",
+        "subtitle": "Let's create a safer, more reliable digital environment for your business.",
+        "button": "Audit My System"
+      }
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact Us — Hanno Technology",
+      "description": "Tell us what you're building. Hanno is here to help make the process clearer and easier to navigate."
+    },
+    "hero": "Let's talk",
+    "heading": "Tell us\nwhat you're building",
+    "subtitle": "Whether you need a SaaS platform, a custom system, a website, or simply guidance for your next digital step, Hanno is here to help make the process clearer and easier to navigate.",
+    "form": {
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "companyPlaceholder": "Company / Business name",
+      "lookingForLabel": "What are you looking for?",
+      "options": {
+        "saas": "SaaS Platform",
+        "custom": "Custom System",
+        "landing": "Landing Page / Website",
+        "maintenance": "Maintenance & Support",
+        "security": "Security Audit",
+        "other": "Other"
+      },
+      "messagePlaceholder": "Tell us a little about your project",
+      "submit": "Talk With Hanno",
+      "emailSubject": "New project inquiry"
+    }
+  },
+  "footer": {
+    "tagline": "Adopt technology\nthat transforms",
+    "contactUs": "Contact Us",
+    "copyright": "© 2026 Hanno Technology",
+    "roles": {
+      "founder": "Founder and Developer",
+      "brand": "Brand Head and Designer",
+      "ceo": "CEO"
+    }
+  }
+}
