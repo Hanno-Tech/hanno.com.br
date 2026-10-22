@@ -99,6 +99,13 @@
   background: rgba(255, 255, 255, 0.4);
 }
 
+.brandBy {
+  font-family: var(--font-inter);
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.85;
+}
+
 .brandMark {
   display: inline-block;
   flex: none;
@@ -1304,8 +1311,8 @@
 }
 
 @media (max-width: 640px) {
-  .brand :global(img),
-  .brandSep {
+  .brandSep,
+  .brandBy {
     display: none;
   }
 

@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import NanoCat, { SKINS } from "@/components/nano/nano-cat";
+import NannoLogo from "@/components/nano/nanno-logo";
 import WaitlistForm from "./waitlist-form";
 import styles from "./nano.module.css";
 
@@ -23,16 +24,7 @@ const LOCALES = [
   { code: "pt-BR", label: "PT" },
 ] as const;
 
-// Links between languages differ on nanno.hanno.com.br ("/", "/pt-BR") and on the
-// main site ("/nanno", "/pt-BR/nanno").
-function useNannoHost() {
-  const [nannoHost, setNannoHost] = useState(false);
-  useEffect(() => setNannoHost(window.location.host.startsWith("nanno.")), []);
-  return nannoHost;
-}
-
-function localeHref(code: string, nannoHost: boolean) {
-  if (nannoHost) return code === "en" ? "/" : `/${code}`;
+function localeHref(code: string) {
   return code === "en" ? "/nanno" : `/${code}/nanno`;
 }
 
@@ -106,7 +98,6 @@ function Check({ on }: { on: boolean }) {
 export default function NanoLanding() {
   const t = useTranslations("nano");
   const locale = useLocale();
-  const nannoHost = useNannoHost();
   const othersHas = t.raw("compare.others_has") as boolean[];
 
   return (
@@ -114,10 +105,9 @@ export default function NanoLanding() {
       <div className={styles.heroBand}>
         <header className={styles.nav}>
           <a className={styles.brand} href="#top">
-            <Image width={101} height={18} alt="Hanno" src="/Group5.svg" />
+            <NannoLogo height={24} />
             <span className={styles.brandSep} aria-hidden="true" />
-            <span className={styles.brandMark} aria-hidden="true" />
-            Nanno
+            <span className={styles.brandBy}>{t("nav.by")}</span>
           </a>
           <nav className={styles.navLinks}>
             <a href="#features">{t("nav.features")}</a>
@@ -128,7 +118,7 @@ export default function NanoLanding() {
             <div className={styles.lang}>
               {LOCALES.map((l, i) => (
                 <span key={l.code}>
-                  <a href={localeHref(l.code, nannoHost)} hrefLang={l.code} aria-current={l.code === locale ? "true" : undefined}>
+                  <a href={localeHref(l.code)} hrefLang={l.code} aria-current={l.code === locale ? "true" : undefined}>
                     {l.label}
                   </a>
                   {i < LOCALES.length - 1 && <span className={styles.langSep}>|</span>}
@@ -202,7 +192,7 @@ export default function NanoLanding() {
                 <tr>
                   <th scope="col">{t("compare.feature")}</th>
                   <th scope="col" className={styles.colNano}>
-                    <span className={styles.brandMark} aria-hidden="true" /> {t("compare.nano")}
+                    <NannoLogo height={18} />
                   </th>
                   <th scope="col">{t("compare.others")}</th>
                 </tr>
@@ -350,7 +340,7 @@ export default function NanoLanding() {
             <a href="#features">{t("nav.features")}</a>
             <a href="#pricing">{t("nav.pricing")}</a>
             <a href="#faq">{t("nav.faq")}</a>
-            <a href={locale === "en" ? "https://hanno.com.br" : `https://hanno.com.br/${locale}`}>hanno.com.br</a>
+            <a href={locale === "en" ? "/" : `/${locale}`}>hanno.com.br</a>
           </nav>
           <p className={styles.footerRights}>{t("footer.rights")}</p>
         </div>

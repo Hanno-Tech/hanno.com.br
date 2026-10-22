@@ -123,13 +123,6 @@
       "heading": "Let's build something clearer.",
       "body1": "Hanno helps businesses build digital products with clear communication, structured processes, and close support from the very first step.",
       "body2": "Whether you need a SaaS platform, a custom system, or a stronger digital presence, we're here to help make the process feel more organized, accessible, and human."
-    },
-    "products": {
-      "title": "Hanno Tech products",
-      "tag": "New",
-      "nanoTitle": "Nanno",
-      "nanoBody": "A desktop cat that gives your AI a face and gets things done for you. Private by design.",
-      "nanoCta": "Meet Nanno"
     }
   },
   "servicePage": {
@@ -445,7 +438,9 @@
       "founder": "Founder and Developer",
       "brand": "Brand Head and Designer",
       "ceo": "CEO"
-    }
+    },
+    "products": "Our products:",
+    "nannoTagline": "the desktop cat that gives your AI a face."
   },
   "nano": {
     "meta": {

@@ -13,7 +13,6 @@ import FrameComponent3 from "@/components/frame-component3";
 import FrameComponent4 from "@/components/frame-component4";
 import FrameComponent5 from "@/components/frame-component5";
 import GroupComponent from "@/components/group-component";
-import HannoProducts from "@/components/hanno-products";
 
 const Desktop1: NextPage = () => {
   const t = useTranslations("home.closing");
@@ -207,7 +206,6 @@ const Desktop1: NextPage = () => {
           </Box>
         </Box>
 
-        <HannoProducts />
         <GroupComponent />
       </Box>
     </Box>

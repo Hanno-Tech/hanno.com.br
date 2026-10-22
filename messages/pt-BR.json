@@ -123,13 +123,6 @@
       "heading": "Vamos construir algo mais claro.",
       "body1": "A Hanno ajuda empresas a construir produtos digitais com comunicação clara, processos estruturados e suporte próximo desde o primeiro passo.",
       "body2": "Seja uma plataforma SaaS, um sistema sob medida ou uma presença digital mais forte, estamos aqui para tornar o processo mais organizado, acessível e humano."
-    },
-    "products": {
-      "title": "Produtos Hanno Tech",
-      "tag": "Novo",
-      "nanoTitle": "Nanno",
-      "nanoBody": "Um gato de desktop que dá rosto à sua IA e resolve as coisas para você. Privado por padrão.",
-      "nanoCta": "Conhecer o Nanno"
     }
   },
   "servicePage": {
@@ -445,7 +438,9 @@
       "founder": "Fundador e Desenvolvedor",
       "brand": "Head de Marca e Designer",
       "ceo": "CEO"
-    }
+    },
+    "products": "Nossos produtos:",
+    "nannoTagline": "o gato de desktop que dá rosto à sua IA."
   },
   "nano": {
     "meta": {
