@@ -1,0 +1,107 @@
+.cat {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.cat * {
+  transform-box: fill-box;
+}
+
+/* Skin colors come from CSS variables so a skin change crossfades. */
+.stopFur,
+.stopLight,
+.stopEye,
+.stopNose,
+.fur,
+.nose,
+.blush {
+  transition: stop-color 0.7s ease, fill 0.7s ease;
+}
+
+.stopFur { stop-color: var(--fur); }
+.stopLight { stop-color: var(--furLight); }
+.stopEye { stop-color: var(--eye); }
+.stopNose { stop-color: var(--nose); }
+.fur { fill: var(--fur); }
+.nose { fill: var(--nose); }
+.blush { fill: var(--nose); opacity: 0.28; }
+
+.acc {
+  opacity: 0;
+  transform: translateY(-10px) scale(0.92);
+  transform-origin: 50% 100%;
+  transition: opacity 0.45s ease, transform 0.45s ease;
+  pointer-events: none;
+}
+
+.accOn {
+  opacity: 1;
+  transform: none;
+}
+
+.body {
+  transform-origin: 50% 100%;
+  animation: breathe 4s ease-in-out infinite;
+}
+
+.head {
+  transform-origin: 50% 90%;
+  animation: bob 4s ease-in-out infinite;
+}
+
+.tail {
+  transform-origin: 0% 100%;
+  animation: sway 3.2s ease-in-out infinite;
+}
+
+.eyes {
+  transform-origin: 50% 50%;
+  animation: blink 5s infinite;
+}
+
+.pupil {
+  transition: transform 0.12s ease-out;
+}
+
+/* Mystery (Founder) skin: a silhouette with glowing eyes and a "?" */
+.mystery .eyes {
+  filter: drop-shadow(0 0 10px var(--eye));
+}
+
+.question {
+  font-family: var(--font-boldonse);
+  font-size: 72px;
+  fill: var(--eye);
+  opacity: 0.85;
+  animation: pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0%, 100% { transform: scale(1, 1); }
+  50% { transform: scale(1.02, 0.975); }
+}
+
+@keyframes bob {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  50% { transform: translateY(2px) rotate(-1deg); }
+}
+
+@keyframes sway {
+  0%, 100% { transform: rotate(-6deg); }
+  50% { transform: rotate(10deg); }
+}
+
+@keyframes blink {
+  0%, 94%, 100% { transform: scaleY(1); }
+  97% { transform: scaleY(0.08); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .body, .head, .tail, .eyes, .question { animation: none; }
+}

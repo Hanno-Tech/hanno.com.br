@@ -438,6 +438,236 @@
       "founder": "Founder and Developer",
       "brand": "Brand Head and Designer",
       "ceo": "CEO"
+    },
+    "products": "Our products:",
+    "nannoTagline": "the desktop cat that gives your AI a face."
+  },
+  "nano": {
+    "meta": {
+      "title": "Nanno — Your AI, with a face",
+      "description": "A desktop cat that talks to ChatGPT, Claude and Gemini and gets things done in Notion, Calendar and Gmail. Private by design. By Hanno Tech."
+    },
+    "nav": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "join": "Join the waitlist",
+      "by": "by Hanno Tech",
+      "language": "Português",
+      "languageHref": "pt-BR"
+    },
+    "hero": {
+      "badge": "Founder's presale opens Nov 27",
+      "title": "Your AI,\nwith a face.",
+      "subtitle": "Nanno is a little black cat that lives on your desktop. It talks to the AI you already use (ChatGPT, Claude, Gemini, DeepSeek, Grok and more) and gets things done in Notion, Calendar and Gmail. Your conversations stay on your computer.",
+      "bubbles": [
+        "Add “send the deck” to my Notion tasks",
+        "What did I work on yesterday?",
+        "Quiz me on chapter 4",
+        "Move my 3pm call to Friday"
+      ]
+    },
+    "waitlist": {
+      "label": "Email",
+      "placeholder": "you@email.com",
+      "cta": "Join the waitlist",
+      "sending": "Joining…",
+      "note": "Windows first, Mac soon. Launch news only, no spam.",
+      "invalid": "That email doesn't look right.",
+      "error": "Something went wrong. Please try again.",
+      "successTitle": "You're in! #{position} in line",
+      "successBody": "Every friend who joins with your link moves you up {bump} spots. Bring {goal} friends to unlock the exclusive Referral Cat skin.",
+      "progress": "{count} of {goal} friends",
+      "unlocked": "Referral Cat unlocked 🎉",
+      "copy": "Copy link",
+      "copied": "Copied!",
+      "share": "Share on X",
+      "shareText": "I just joined the waitlist for Nanno, a desktop cat that talks to your AI 🐈‍⬛"
+    },
+    "worksWith": "Works with the AIs everyone is talking about",
+    "features": {
+      "title": "A cat that actually helps",
+      "items": {
+        "talk": {
+          "title": "Talks back",
+          "body": "Ask out loud and hear the answer in a natural voice that runs 100% on your machine."
+        },
+        "act": {
+          "title": "Gets things done",
+          "body": "Creates Notion pages, checks your calendar and drafts emails. It always asks before changing anything."
+        },
+        "remember": {
+          "title": "Remembers your day",
+          "body": "A private journal of what you did, ready for “what did I do yesterday?” or your weekly recap."
+        },
+        "private": {
+          "title": "Private by design",
+          "body": "Chats, journal and integration logins never leave your computer. No Hanno AI in the cloud, and we never sell data."
+        },
+        "study": {
+          "title": "Study buddy",
+          "body": "Summaries, quizzes and focus sessions built from your own material."
+        },
+        "style": {
+          "title": "Make it yours",
+          "body": "Skins and voices: astronaut, wizard, neon… plus limited editions every season."
+        }
+      }
+    },
+    "how": {
+      "title": "Up and running in 3 minutes",
+      "steps": {
+        "install": {
+          "title": "Install Nanno",
+          "body": "Download for Windows and the cat shows up in the corner of your screen, on top of every app."
+        },
+        "connect": {
+          "title": "Connect your AI",
+          "body": "Use your own API key or the app you already have: ChatGPT, Claude, Gemini, DeepSeek, Grok and more."
+        },
+        "ask": {
+          "title": "Just ask",
+          "body": "Type or talk. Nanno answers, acts and remembers."
+        }
+      }
+    },
+    "real": {
+      "eyebrow": "The origin story",
+      "title": "Meet the real Nano",
+      "body": "Nanno exists because of Nano, a real black cat who spends her days on my desk watching me work. I wanted an assistant with the same quiet company: always there, never in the way.",
+      "signature": "Rafael, founder of Hanno Tech",
+      "photoAlt": "Nano, the real black cat",
+      "photoSoon": "Photo coming soon"
+    },
+    "pricing": {
+      "title": "Simple pricing",
+      "subtitle": "No free tier, no ads, no data sales. Try it risk-free with a 7-day refund, no questions asked.",
+      "monthly": {
+        "name": "Nanno Plus",
+        "price": "$4.99",
+        "period": "/month",
+        "features": [
+          "The desktop cat for Windows",
+          "Unlimited AI with your own key",
+          "Notion, Calendar, Gmail and more",
+          "All base skins and voices",
+          "Every update"
+        ]
+      },
+      "annual": {
+        "name": "Nanno Plus Annual",
+        "price": "$39.99",
+        "period": "/year",
+        "badge": "Save 33%",
+        "features": [
+          "Everything in monthly",
+          "Just $3.33 a month",
+          "Billed once a year"
+        ]
+      },
+      "founder": {
+        "name": "Founder's Pack",
+        "price": "$49",
+        "period": "one-time",
+        "badge": "Only 500",
+        "features": [
+          "Lifetime Nanno Plus",
+          "Exclusive Founder skin, never sold again",
+          "A thank-you video from me and the real Nano",
+          "Your name in the app credits",
+          "Beta access from Dec 1"
+        ],
+        "ribbon": "Best value"
+      },
+      "cta": "Join the waitlist",
+      "founderCta": "Get early access",
+      "note": "The Founder's presale opens Nov 27 for the waitlist, in queue order. Prices in USD; taxes may apply."
+    },
+    "faq": {
+      "title": "Questions",
+      "items": [
+        {
+          "q": "Do I need to pay for an AI too?",
+          "a": "Nanno uses the AI you already have. Bring an API key from OpenAI, Anthropic, Google, DeepSeek, xAI (Grok) or Mistral (Gemini has a free tier), or connect the ChatGPT, Claude or Gemini app on your computer. Hanno never charges you for AI usage."
+        },
+        {
+          "q": "Is my data private?",
+          "a": "Yes. Conversations, your journal and integration logins stay on your computer. Our servers only know your account and your subscription."
+        },
+        {
+          "q": "Which systems are supported?",
+          "a": "Windows 10 and 11 at launch. macOS is next."
+        },
+        {
+          "q": "Which languages does it speak?",
+          "a": "English, Portuguese and Spanish at launch, with more voices on the way."
+        },
+        {
+          "q": "What if I don't like it?",
+          "a": "Ask for a refund within 7 days and you get your money back, no questions asked."
+        },
+        {
+          "q": "When does it launch?",
+          "a": "Founder's presale on Nov 27, founders beta from Dec 1 and public launch on Dec 15, 2026."
+        }
+      ]
+    },
+    "final": {
+      "title": "Get Nanno on your desktop",
+      "subtitle": "Join the waitlist and move up with every friend you bring.",
+      "cta": "Click here\nand join\nthe waitlist"
+    },
+    "footer": {
+      "product": "Nanno is a Hanno Tech product.",
+      "rights": "© 2026 Hanno Tech"
+    },
+    "apps": "…and acts in your apps",
+    "compare": {
+      "title": "Your AI, not a big-tech assistant",
+      "subtitle": "Nanno puts a face on the AI you choose, and keeps your life on your own computer.",
+      "feature": "What you get",
+      "nano": "Nanno",
+      "others": "Big-tech assistants",
+      "rows": [
+        "Works with any AI: ChatGPT, Claude, Gemini, DeepSeek, Grok",
+        "Lives on your desktop, above every app",
+        "Acts in Notion, Calendar and Gmail",
+        "Asks before changing anything",
+        "Conversations and journal stay on your computer",
+        "Voice that runs offline",
+        "Never trains on or sells your data",
+        "Skins and voices to make it yours"
+      ],
+      "others_has": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "skins": {
+      "label": "Skin",
+      "classico": "Classic",
+      "noturno": "Night Owl",
+      "estudante": "Student",
+      "astronauta": "Astronaut",
+      "mago": "Arcane Wizard",
+      "neon": "Neon Tokyo"
+    },
+    "founder": {
+      "eyebrow": "Founder's Pack · only 500",
+      "title": "A skin nobody has seen yet.",
+      "body": "Founders get a secret skin that will never be sold again. We reveal it only to the first 500, on Dec 1, together with a thank-you video from me and the real Nano.",
+      "mysteryName": "Founder skin",
+      "mysteryHint": "Revealed to founders on Dec 1",
+      "spots": "500 spots · presale opens Nov 27",
+      "cta": "Get on the list for the presale",
+      "price": "$49",
+      "period": "one-time, lifetime Plus"
     }
   }
 }

@@ -81,6 +81,27 @@ const GroupComponent: NextPage<GroupComponentType> = ({ className = "" }) => {
               </Typography>
             ))}
           </Box>
+
+          {/* Hanno Tech products */}
+          <Typography
+            component="p"
+            sx={{
+              fontFamily: "var(--font-inter)",
+              fontSize: { xs: "0.95rem", md: "1.05rem" },
+              color: "var(--color-gray)",
+              mt: { xs: 3, md: 4 },
+            }}
+          >
+            {tf("products")}{" "}
+            <Box
+              component="a"
+              href={`${base}/nanno`}
+              sx={{ fontWeight: 700, color: "var(--color-midnightblue-200)", "&:hover": { opacity: 0.7 } }}
+            >
+              Nanno
+            </Box>{" "}
+            — {tf("nannoTagline")}
+          </Typography>
         </Box>
 
         {/* Right columns - Contact info */}
