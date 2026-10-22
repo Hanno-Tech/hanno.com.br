@@ -1,8 +1,9 @@
-// Applies db/nano/*.sql to DATABASE_URL. Usage: node --env-file=.env.local scripts/migrate-nano.mjs
+// Applies db/nano/*.sql. Migrations use the direct (unpooled) connection when available.
+// Usage: npm run db:migrate
 import { readdir, readFile } from "node:fs/promises";
 import { neon } from "@neondatabase/serverless";
 
-const url = process.env.DATABASE_URL;
+const url = process.env.DATABASE_URL_UNPOOLED || process.env.DATABASE_URL;
 if (!url) {
   console.error("DATABASE_URL is not set");
   process.exit(1);
