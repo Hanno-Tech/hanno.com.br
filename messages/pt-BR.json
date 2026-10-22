@@ -123,6 +123,13 @@
       "heading": "Vamos construir algo mais claro.",
       "body1": "A Hanno ajuda empresas a construir produtos digitais com comunicação clara, processos estruturados e suporte próximo desde o primeiro passo.",
       "body2": "Seja uma plataforma SaaS, um sistema sob medida ou uma presença digital mais forte, estamos aqui para tornar o processo mais organizado, acessível e humano."
+    },
+    "products": {
+      "title": "Produtos Hanno Tech",
+      "tag": "Novo",
+      "nanoTitle": "Nanno",
+      "nanoBody": "Um gato de desktop que dá rosto à sua IA e resolve as coisas para você. Privado por padrão.",
+      "nanoCta": "Conhecer o Nanno"
     }
   },
   "servicePage": {
@@ -438,6 +445,234 @@
       "founder": "Fundador e Desenvolvedor",
       "brand": "Head de Marca e Designer",
       "ceo": "CEO"
+    }
+  },
+  "nano": {
+    "meta": {
+      "title": "Nanno — Sua IA, com rosto",
+      "description": "Um gato de desktop que conversa com ChatGPT, Claude e Gemini e resolve coisas no Notion, Agenda e Gmail. Privado por padrão. Da Hanno Tech."
+    },
+    "nav": {
+      "features": "Recursos",
+      "pricing": "Preços",
+      "faq": "Dúvidas",
+      "join": "Entrar na lista",
+      "by": "da Hanno Tech",
+      "language": "English",
+      "languageHref": "en"
+    },
+    "hero": {
+      "badge": "Pré-venda Founder abre em 27/nov",
+      "title": "Sua IA,\ncom rosto.",
+      "subtitle": "O Nanno é um gatinho preto que mora no seu desktop. Ele conversa com a IA que você já usa (ChatGPT, Claude, Gemini, DeepSeek, Grok e outras) e resolve coisas no Notion, na Agenda e no Gmail. Suas conversas ficam no seu computador.",
+      "bubbles": [
+        "Adiciona “enviar a apresentação” nas minhas tarefas do Notion",
+        "O que eu fiz ontem?",
+        "Me faz perguntas do capítulo 4",
+        "Muda minha call das 15h pra sexta"
+      ]
+    },
+    "waitlist": {
+      "label": "E-mail",
+      "placeholder": "voce@email.com",
+      "cta": "Entrar na lista",
+      "sending": "Entrando…",
+      "note": "Primeiro no Windows, Mac em breve. Só novidades do lançamento, sem spam.",
+      "invalid": "Esse e-mail não parece certo.",
+      "error": "Algo deu errado. Tente de novo.",
+      "successTitle": "Você está na lista! #{position} na fila",
+      "successBody": "Cada amigo que entrar pelo seu link te sobe {bump} posições. Traga {goal} amigos e desbloqueie a skin exclusiva Referral Cat.",
+      "progress": "{count} de {goal} amigos",
+      "unlocked": "Referral Cat desbloqueada 🎉",
+      "copy": "Copiar link",
+      "copied": "Copiado!",
+      "share": "Compartilhar no X",
+      "shareText": "Entrei na lista de espera do Nanno, um gato de desktop que conversa com a sua IA 🐈‍⬛"
+    },
+    "worksWith": "Funciona com as IAs que todo mundo está usando",
+    "features": {
+      "title": "Um gato que ajuda de verdade",
+      "items": {
+        "talk": {
+          "title": "Responde em voz alta",
+          "body": "Pergunte falando e ouça a resposta numa voz natural que roda 100% no seu computador."
+        },
+        "act": {
+          "title": "Faz as coisas",
+          "body": "Cria páginas no Notion, consulta sua agenda e rascunha e-mails. Sempre pergunta antes de alterar algo."
+        },
+        "remember": {
+          "title": "Lembra do seu dia",
+          "body": "Um diário privado do que você fez, pronto para “o que eu fiz ontem?” ou o resumo da semana."
+        },
+        "private": {
+          "title": "Privado por padrão",
+          "body": "Conversas, diário e logins das integrações nunca saem do seu computador. Nenhuma IA da Hanno na nuvem e nada de venda de dados."
+        },
+        "study": {
+          "title": "Parceiro de estudos",
+          "body": "Resumos, quizzes e sessões de foco a partir do seu próprio material."
+        },
+        "style": {
+          "title": "Do seu jeito",
+          "body": "Skins e vozes: astronauta, mago, neon… e edições limitadas a cada estação."
+        }
+      }
+    },
+    "how": {
+      "title": "Pronto em 3 minutos",
+      "steps": {
+        "install": {
+          "title": "Instale o Nanno",
+          "body": "Baixe para Windows e o gato aparece no canto da tela, por cima de qualquer app."
+        },
+        "connect": {
+          "title": "Conecte sua IA",
+          "body": "Use sua própria chave de API ou o app que você já tem: ChatGPT, Claude, Gemini, DeepSeek, Grok e outras."
+        },
+        "ask": {
+          "title": "É só pedir",
+          "body": "Digite ou fale. O Nanno responde, age e lembra."
+        }
+      }
+    },
+    "real": {
+      "eyebrow": "A história",
+      "title": "Conheça a Nano de verdade",
+      "body": "O Nanno existe por causa da Nano, uma gata preta de verdade que passa o dia na minha mesa me vendo trabalhar. Eu queria um assistente com a mesma companhia tranquila: sempre ali, sem atrapalhar.",
+      "signature": "Rafael, fundador da Hanno Tech",
+      "photoAlt": "Nano, a gata preta de verdade",
+      "photoSoon": "Foto em breve"
+    },
+    "pricing": {
+      "title": "Preço simples",
+      "subtitle": "Sem plano grátis, sem anúncios e sem venda de dados. Experimente sem risco: reembolso em 7 dias, sem perguntas.",
+      "monthly": {
+        "name": "Nanno Plus",
+        "price": "US$ 4,99",
+        "period": "/mês",
+        "features": [
+          "O gato de desktop para Windows",
+          "IA ilimitada com sua própria chave",
+          "Notion, Agenda, Gmail e mais",
+          "Todas as skins e vozes base",
+          "Todas as atualizações"
+        ]
+      },
+      "annual": {
+        "name": "Nanno Plus Anual",
+        "price": "US$ 39,99",
+        "period": "/ano",
+        "badge": "33% off",
+        "features": [
+          "Tudo do mensal",
+          "Só US$ 3,33 por mês",
+          "Cobrança uma vez por ano"
+        ]
+      },
+      "founder": {
+        "name": "Founder's Pack",
+        "price": "US$ 49",
+        "period": "pagamento único",
+        "badge": "Só 500",
+        "features": [
+          "Nanno Plus vitalício",
+          "Skin Founder exclusiva, que nunca volta à venda",
+          "Um vídeo de agradecimento meu e da Nano de verdade",
+          "Seu nome nos créditos do app",
+          "Acesso ao beta a partir de 1º/dez"
+        ],
+        "ribbon": "Melhor custo"
+      },
+      "cta": "Entrar na lista",
+      "founderCta": "Garantir acesso antecipado",
+      "note": "A pré-venda Founder abre em 27/nov para a lista de espera, por ordem da fila. Preços em dólar; impostos podem ser aplicados."
+    },
+    "faq": {
+      "title": "Dúvidas",
+      "items": [
+        {
+          "q": "Preciso pagar uma IA também?",
+          "a": "O Nanno usa a IA que você já tem. Traga uma chave de API da OpenAI, Anthropic, Google, DeepSeek, xAI (Grok) ou Mistral (o Gemini tem plano gratuito), ou conecte o app do ChatGPT, Claude ou Gemini no seu computador. A Hanno nunca cobra pelo uso de IA."
+        },
+        {
+          "q": "Meus dados ficam privados?",
+          "a": "Sim. Conversas, diário e logins das integrações ficam no seu computador. Nossos servidores só conhecem sua conta e sua assinatura."
+        },
+        {
+          "q": "Quais sistemas são suportados?",
+          "a": "Windows 10 e 11 no lançamento. O macOS vem em seguida."
+        },
+        {
+          "q": "Quais idiomas ele fala?",
+          "a": "Inglês, português e espanhol no lançamento, com mais vozes a caminho."
+        },
+        {
+          "q": "E se eu não gostar?",
+          "a": "Peça o reembolso em até 7 dias e você recebe seu dinheiro de volta, sem perguntas."
+        },
+        {
+          "q": "Quando lança?",
+          "a": "Pré-venda Founder em 27/nov, beta dos founders a partir de 1º/dez e lançamento público em 15/dez/2026."
+        }
+      ]
+    },
+    "final": {
+      "title": "Leve o Nanno para o seu desktop",
+      "subtitle": "Entre na lista e suba na fila a cada amigo que trouxer.",
+      "cta": "Clique aqui\ne entre\nna lista"
+    },
+    "footer": {
+      "product": "O Nanno é um produto Hanno Tech.",
+      "rights": "© 2026 Hanno Tech"
+    },
+    "apps": "…e age nos seus apps",
+    "compare": {
+      "title": "Sua IA, não um assistente de big tech",
+      "subtitle": "O Nanno dá rosto à IA que você escolher e mantém a sua vida no seu próprio computador.",
+      "feature": "O que você ganha",
+      "nano": "Nanno",
+      "others": "Assistentes de big tech",
+      "rows": [
+        "Funciona com qualquer IA: ChatGPT, Claude, Gemini, DeepSeek, Grok",
+        "Mora no seu desktop, por cima de qualquer app",
+        "Age no Notion, na Agenda e no Gmail",
+        "Pergunta antes de alterar qualquer coisa",
+        "Conversas e diário ficam no seu computador",
+        "Voz que funciona offline",
+        "Nunca treina com nem vende seus dados",
+        "Skins e vozes para deixar do seu jeito"
+      ],
+      "others_has": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "skins": {
+      "label": "Skin",
+      "classico": "Clássico",
+      "noturno": "Noturno",
+      "estudante": "Estudante",
+      "astronauta": "Astronauta",
+      "mago": "Mago Arcano",
+      "neon": "Neon Tokyo"
+    },
+    "founder": {
+      "eyebrow": "Founder's Pack · só 500",
+      "title": "Uma skin que ninguém viu ainda.",
+      "body": "Os founders ganham uma skin secreta que nunca mais será vendida. Ela só é revelada para os 500 primeiros, em 1º/dez, junto com um vídeo de agradecimento meu e da Nano de verdade.",
+      "mysteryName": "Skin Founder",
+      "mysteryHint": "Revelada aos founders em 1º/dez",
+      "spots": "500 vagas · pré-venda abre em 27/nov",
+      "cta": "Garantir lugar na pré-venda",
+      "price": "US$ 49",
+      "period": "pagamento único, Plus vitalício"
     }
   }
 }
