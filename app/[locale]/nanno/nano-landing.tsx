@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import NanoCat, { SKINS } from "@/components/nano/nano-cat";
 import NannoLogo from "@/components/nano/nanno-logo";
 import WaitlistForm from "./waitlist-form";
+import BuyButton, { FounderLeft } from "./buy-button";
 import styles from "./nano.module.css";
 
 const FEATURES = ["act", "talk", "remember", "private", "study", "style"] as const;
@@ -266,10 +267,8 @@ export default function NanoLanding() {
             <p className={styles.founderPrice}>
               {t("founder.price")} <small>{t("founder.period")}</small>
             </p>
-            <a className={styles.btnLime} href="#join">
-              {t("founder.cta")}
-            </a>
-            <p className={styles.founderSpots}>{t("founder.spots")}</p>
+            <BuyButton plan="founder" className={styles.btnLime} waitlistLabel={t("founder.cta")} waitlistHref="#join" />
+            <FounderLeft className={styles.founderSpots} fallback={t("founder.spots")} />
           </div>
         </div>
       </section>
@@ -294,9 +293,11 @@ export default function NanoLanding() {
                     <li key={f}>{f}</li>
                   ))}
                 </ul>
-                <a className={plan === "founder" ? styles.btnLime : styles.btnDark} href={plan === "founder" ? "#founders" : "#join"}>
-                  {plan === "founder" ? t("pricing.founderCta") : t("pricing.cta")}
-                </a>
+                <BuyButton
+                  plan={plan}
+                  className={plan === "founder" ? styles.btnLime : styles.btnDark}
+                  waitlistLabel={plan === "founder" ? t("pricing.founderCta") : t("pricing.cta")}
+                />
               </article>
             ))}
           </div>
