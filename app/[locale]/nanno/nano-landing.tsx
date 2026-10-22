@@ -232,9 +232,8 @@ export default function NanoLanding() {
 
       <section className={styles.light}>
         <div className={`${styles.inner} ${styles.real}`}>
-          <div className={styles.photo} role="img" aria-label={t("real.photoAlt")}>
-            <NanoCat className={styles.photoCat} />
-            <span>{t("real.photoSoon")}</span>
+          <div className={styles.photo}>
+            <Image src="/nanno/nano-real.jpg" alt={t("real.photoAlt")} fill sizes="(max-width: 900px) 90vw, 480px" />
           </div>
           <div>
             <p className={styles.eyebrow}>{t("real.eyebrow")}</p>

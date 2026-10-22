@@ -709,20 +709,16 @@
 }
 
 .photo {
-  display: grid;
-  place-items: center;
-  align-content: center;
-  gap: 16px;
-  aspect-ratio: 4 / 5;
+  position: relative;
+  aspect-ratio: 3 / 4;
   border-radius: var(--br-30);
-  background: linear-gradient(180deg, var(--color-blueviolet-100), var(--color-midnightblue-200));
-  color: var(--color-thistle);
-  font-size: 0.95rem;
+  overflow: hidden;
+  background: var(--color-midnightblue-200);
+  box-shadow: 0 24px 60px rgba(40, 0, 77, 0.25);
 }
 
-.photoCat {
-  width: 55%;
-  opacity: 0.9;
+.photo img {
+  object-fit: cover;
 }
 
 .realBody {
