@@ -9,7 +9,8 @@ const CODE_TTL_MIN = 10;
 const CODE_MAX_ATTEMPTS = 5;
 const RESEND_AFTER_S = 30;
 // Entitlements expire so a refund or a canceled subscription reaches devices that stay offline.
-const ENTITLEMENT_DAYS = { free: 30, plus: 14, founder: 90 } as const;
+// There is no free plan: "none" (no active purchase) keeps the app on the activation screen.
+const ENTITLEMENT_DAYS = { none: 1, plus: 14, founder: 90 } as const;
 
 export type Plan = keyof typeof ENTITLEMENT_DAYS;
 export type Entitlement = { payload: string; signature: string };
@@ -81,7 +82,7 @@ export async function revokeDevice(token: string) {
   await db()!.query("delete from nano_devices where token_hash = $1", [sha256(token)]);
 }
 
-// Founder's Pack (paid) > active subscription > free. Matching is by the checkout e-mail.
+// Founder's Pack (paid) > active subscription > none. Matching is by the checkout e-mail.
 export async function planFor(email: string): Promise<Plan> {
   const rows = await db()!.query(
     `select plan, status from nano_orders
@@ -89,7 +90,7 @@ export async function planFor(email: string): Promise<Plan> {
     [email],
   );
   if (rows.some((r) => r.plan === "founder")) return "founder";
-  return rows.length ? "plus" : "free";
+  return rows.length ? "plus" : "none";
 }
 
 // NANNO_SIGNING_KEY is the Ed25519 private key as base64 PKCS#8 DER (scripts/nanno-signing-key.mjs).
