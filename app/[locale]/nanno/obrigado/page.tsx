@@ -4,6 +4,9 @@ import NannoLogo from "@/components/nano/nanno-logo";
 import { stripe } from "@/lib/nano/stripe";
 import styles from "../nano.module.css";
 
+// Reads ?session_id on every request, so it must not be prerendered.
+export const dynamic = "force-dynamic";
+
 type Props = {
   params: Promise<{ locale: string }>;
   searchParams: Promise<{ session_id?: string }>;
