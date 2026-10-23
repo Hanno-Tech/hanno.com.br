@@ -668,6 +668,26 @@
       "cta": "Garantir lugar na pré-venda",
       "price": "US$ 49",
       "period": "pagamento único, Plus vitalício"
+    },
+    "buy": {
+      "monthly": "Assinar mensal",
+      "annual": "Assinar anual",
+      "founder": "Garantir o Founder's Pack",
+      "loading": "Abrindo o checkout…",
+      "soldOut": "Esgotado",
+      "error": "Não deu para abrir o checkout. Tente de novo.",
+      "left": "Restam {count} de 500 Founder's Packs"
+    },
+    "thanks": {
+      "metaTitle": "Obrigado! — Nanno",
+      "title": "Obrigado!",
+      "founderTitle": "Bem-vindo, founder!",
+      "founder": "Seu Founder's Pack está confirmado. Em 1º/dez você recebe o download do beta, a skin Founder secreta e um vídeo de agradecimento meu e da Nano de verdade.",
+      "plus": "Sua assinatura do Nanno Plus está ativa. Mandamos o download por e-mail assim que o beta abrir.",
+      "receipt": "O recibo foi enviado para {email}.",
+      "refund": "Mudou de ideia? Responda o recibo em até 7 dias e devolvemos tudo.",
+      "pending": "Estamos confirmando o pagamento. Você recebe um e-mail em alguns minutos.",
+      "back": "Voltar para o Nanno"
     }
   }
 }

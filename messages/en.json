@@ -668,6 +668,26 @@
       "cta": "Get on the list for the presale",
       "price": "$49",
       "period": "one-time, lifetime Plus"
+    },
+    "buy": {
+      "monthly": "Subscribe monthly",
+      "annual": "Subscribe yearly",
+      "founder": "Get the Founder's Pack",
+      "loading": "Opening checkout…",
+      "soldOut": "Sold out",
+      "error": "Couldn't open checkout. Please try again.",
+      "left": "{count} of 500 Founder's Packs left"
+    },
+    "thanks": {
+      "metaTitle": "Thank you! — Nanno",
+      "title": "Thank you!",
+      "founderTitle": "Welcome, founder!",
+      "founder": "Your Founder's Pack is confirmed. On Dec 1 you'll get the beta download, the secret Founder skin and a thank-you video from me and the real Nano.",
+      "plus": "Your Nanno Plus subscription is active. We'll email you the download as soon as the beta opens.",
+      "receipt": "A receipt was sent to {email}.",
+      "refund": "Changed your mind? Reply to the receipt within 7 days for a full refund.",
+      "pending": "We're confirming your payment. You'll get an email in a few minutes.",
+      "back": "Back to Nanno"
     }
   }
 }
