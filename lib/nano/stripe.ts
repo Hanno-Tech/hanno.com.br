@@ -55,8 +55,8 @@ export async function recordCheckout(session: Stripe.Checkout.Session) {
   const id = (v: string | { id: string } | null) => (typeof v === "string" ? v : (v?.id ?? null));
   await sql.query(
     `insert into nano_orders (stripe_session_id, stripe_customer_id, subscription_id, payment_intent_id,
-                              email, plan, status, amount_cents, currency, ref_code)
-     values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
+                              email, plan, status, amount_cents, currency, ref_code, locale)
+     values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
      on conflict (stripe_session_id) do update set status = excluded.status, updated_at = now()`,
     [
       session.id,
@@ -69,8 +69,10 @@ export async function recordCheckout(session: Stripe.Checkout.Session) {
       session.amount_total,
       session.currency,
       session.metadata?.ref ?? null,
+      session.locale ?? null,
     ],
   );
+  return { email: session.customer_details?.email?.toLowerCase() ?? null, plan, locale: session.locale ?? null };
 }
 
 export async function updateSubscription(sub: Stripe.Subscription) {

@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
+import { waitlistWelcomeEmail } from "@/lib/nano/email";
+import { sendOnce } from "@/lib/nano/mailings";
 import { normalizeCode, normalizeEmail, waitlist } from "@/lib/nano/waitlist";
 
 export const runtime = "nodejs";
@@ -24,7 +26,8 @@ export async function POST(req: NextRequest) {
 
   const locale = typeof body.locale === "string" ? body.locale.slice(0, 10) : null;
   const source = typeof body.source === "string" ? body.source.slice(0, 64) : null;
-  const status = await store.join({ email, referredBy: normalizeCode(body.ref), locale, source });
+  const { created, ...status } = await store.join({ email, referredBy: normalizeCode(body.ref), locale, source });
+  if (created) await sendOnce(email, "waitlist_welcome", () => waitlistWelcomeEmail(email, locale, status));
   return NextResponse.json(status);
 }
 

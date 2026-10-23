@@ -7,6 +7,7 @@ export const REF_BUMP = 10;
 export const REWARD_AT = 3;
 
 export type WaitlistStatus = {
+  created?: boolean; // true only on the request that added this e-mail
   refCode: string;
   position: number;
   referrals: number;
@@ -82,7 +83,7 @@ function neonStore(url: string): Store {
         [email, code, referredBy ?? null, locale ?? null, source ?? null],
       );
       const row = await sql.query("select ref_code from nano_waitlist where email = $1", [email]);
-      return (await status(row[0].ref_code))!;
+      return { ...(await status(row[0].ref_code))!, created: row[0].ref_code === code };
     },
   };
 }
@@ -106,12 +107,13 @@ function memoryStore(): Store {
     status,
     async join({ email, referredBy }) {
       let me = rows.find((r) => r.email === email);
+      const created = !me;
       if (!me) {
         const by = rows.some((r) => r.code === referredBy) ? referredBy! : null;
         me = { id: rows.length + 1, email, code: newCode(), by };
         rows.push(me);
       }
-      return (await status(me.code))!;
+      return { ...(await status(me.code))!, created };
     },
   };
 }
