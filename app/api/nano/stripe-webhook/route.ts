@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import type Stripe from "stripe";
+import { purchaseEmail } from "@/lib/nano/email";
+import { betaOpen, markSent, sendOnce } from "@/lib/nano/mailings";
 import { markRefunded, recordCheckout, stripe, updateSubscription } from "@/lib/nano/stripe";
 
 export const runtime = "nodejs";
@@ -19,9 +21,17 @@ export async function POST(req: NextRequest) {
   }
 
   switch (event.type) {
-    case "checkout.session.completed":
-      if (event.data.object.payment_status !== "unpaid") await recordCheckout(event.data.object);
+    case "checkout.session.completed": {
+      if (event.data.object.payment_status === "unpaid") break;
+      const order = await recordCheckout(event.data.object);
+      if (order?.email) {
+        const { email, plan, locale } = order;
+        const open = betaOpen();
+        const sent = await sendOnce(email, `purchase_${plan}`, () => purchaseEmail(email, locale, { plan, betaOpen: open }));
+        if (sent && open) await markSent(email, "beta_download"); // the purchase e-mail already has the download
+      }
       break;
+    }
     case "customer.subscription.updated":
     case "customer.subscription.deleted":
       await updateSubscription(event.data.object);
