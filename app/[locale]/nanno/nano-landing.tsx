@@ -340,6 +340,8 @@ export default function NanoLanding() {
             <a href="#features">{t("nav.features")}</a>
             <a href="#pricing">{t("nav.pricing")}</a>
             <a href="#faq">{t("nav.faq")}</a>
+            <a href={locale === "en" ? "/nanno/privacy" : `/${locale}/nanno/privacy`}>{locale.startsWith("pt") ? "Privacidade" : "Privacy"}</a>
+            <a href={locale === "en" ? "/nanno/terms" : `/${locale}/nanno/terms`}>{locale.startsWith("pt") ? "Termos" : "Terms"}</a>
             <a href={locale === "en" ? "/" : `/${locale}`}>hanno.com.br</a>
           </nav>
           <p className={styles.footerRights}>{t("footer.rights")}</p>
